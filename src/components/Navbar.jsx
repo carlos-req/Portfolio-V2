@@ -3,25 +3,49 @@ import {FaBars, FaTimes, FaGithub,FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import{BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/logo1.png'
+import {Link} from 'react-scroll'
 
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handleClick = () => setNav(!nav)
+  const logoText ="< CR />"
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
-      <div>
-        CR
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#111111] text-zinc-100'>
+      <div className='logo hover:text-red-500'>
+      <Link to="home" offset={50} duration={500}>
+        {logoText}
         {/*<img src={Logo} alt="Logo Image" style={{width:'50px'}} />*/}
+        </Link>
       </div>
 
     {/* menu */}
       <ul className='hidden md:flex'>
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Work</li>
-        <li>Contact</li>
+      <li>
+          <Link to="home" offset={50} duration={500}>
+            Home
+            </Link>
+        </li>
+        <li>
+          <Link to="about" offset={50} duration={500}>
+            About
+            </Link>
+        </li>
+        <li>
+            <Link to="skills" offset={50} duration={500}>
+            Skills
+            </Link>
+        </li>
+        <li>
+            <Link to="work" offset={50} duration={500}>
+            Work
+            </Link>
+        </li>
+        <li>
+            <Link to="contact" offset={50} duration={500}>
+            Contact
+            </Link>
+        </li>
       </ul>
 
     {/* hamburger */}
@@ -31,12 +55,32 @@ const Navbar = () => {
 
 
       {/* mobile menu */}
-      <ul className= {!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-        <li className='py-6 text-4xl'>Home</li>
-        <li className='py-6 text-4xl'>About</li>
-        <li className='py-6 text-4xl'>Skills</li>
-        <li className='py-6 text-4xl'>Work</li>
-        <li className='py-6 text-4xl'>Contact</li>
+      <ul className= {!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#171717] flex flex-col justify-center items-center'}>
+        <li className='py-6 text-4xl'> 
+          <Link onClick={handleClick} to="home" offset={50} duration={500}>
+            Home
+            </Link>
+        </li>
+        <li className='py-6 text-4xl'> 
+          <Link onClick={handleClick} to="about" offset={50} duration={500}>
+            About
+            </Link>
+        </li>
+        <li className='py-6 text-4xl'> 
+          <Link onClick={handleClick} to="skills" offset={50} duration={500}>
+            Skills
+            </Link>
+        </li>
+        <li className='py-6 text-4xl'> 
+          <Link onClick={handleClick} to="work" offset={50} duration={500}>
+            Work
+            </Link>
+        </li>
+        <li className='py-6 text-4xl'> 
+          <Link onClick={handleClick} to="contact" offset={50} duration={500}>
+            Contact
+            </Link>
+        </li>
       </ul>
 
       {/* social icons */}
