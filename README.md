@@ -18,9 +18,9 @@ This project has helped me showcase my React skills as well as other projects th
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/carlos-req/Portfolio-V2)
-- Live Site URL: [Live](https://carlosjrequena.com/)
-- Previous Portfolio URL: [PreviousPortfolio](https://carlos-req.github.io/CarlosRequena.io/)
+- Solution: [Solution](https://github.com/carlos-req/Portfolio-V2)
+- Live Site: [Live](https://carlosjrequena.com/)
+- Previous Portfolio: [PortfolioV1](https://carlos-req.github.io/CarlosRequena.io/)
 
 ## My process
 
@@ -40,7 +40,6 @@ This project has helped me showcase my React skills as well as other projects th
 ### What I learned
 
 - React Components
-- 
 - Tailwind CSS Responsiveness
 - Vite Start up environment
 
