@@ -12,7 +12,7 @@ const Home = () => {
           <p className='text-zinc-300 py-4 max-w-[700px]'>I'm a front end developer specializing in building and deploying exceptional digital experiences 🚀.Currently, I'm focused on building responsive front end web applications 🎯. I also have a thing for chicken wings  🍗, Yum.</p>
           
           <div>
-          <Link to="work" offset={50} duration={500}>
+          <Link to="work" smooth={true} duration={500}>
               <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-red-600 hover hover:border-red-600'>
                View Work
                 <span className='group-hover:rotate-90 duration-300'>
