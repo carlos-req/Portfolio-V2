@@ -99,7 +99,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] '>
-            <a className = 'flex justify-between items-center w-full text-gray-300' href="https://drive.google.com/file/d/1uhGiRFD231N5e68bFBqY6RHq7Eu7cmBM/view?usp=share_link">Resume <BsFillPersonLinesFill size={30}/>
+            <a className = 'flex justify-between items-center w-full text-gray-300' href="https://drive.google.com/file/d/1zwGYRRJgPiYT0RPmfHHAHiMfiftdl-UV/view?usp=share_link">Resume <BsFillPersonLinesFill size={30}/>
             </a>
           </li>
         </ul>
