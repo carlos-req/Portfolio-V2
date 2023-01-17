@@ -2,6 +2,7 @@ import React from 'react'
 import Mock1 from '../assets/projects/img-1.png'
 import Mock2 from '../assets/projects/img-2.png'
 import Mock3 from '../assets/projects/img-3.png'
+import Portfolio1 from '../assets/projects/portfoliov1.png'
 import IRC from '../assets/projects/IntractiveRatingComponent.jpg'
 import MomentClone from '../assets/projects/MomentClone.png'
 import MovieDeck from '../assets/projects/MovieDeck.jpg'
@@ -63,7 +64,8 @@ const Work = () => {
                 </a>
               </div>
             </div>
-          </div>          {/* Grid Item */}
+          </div>          
+          {/* Grid Item */}
           <div style={{backgroundImage: `url(${IRC})`}} className='shadow-lg shadow-[#000000] group container rounded-md flex justify-center items-center mx-auto content-div'>
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
@@ -87,23 +89,23 @@ const Work = () => {
             </div>
           </div>
           {/* Grid Item */}
-          <div style={{backgroundImage: `url(${Mock1})`}} className='shadow-lg shadow-[#000000] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div style={{backgroundImage: `url(${Portfolio1})`}} className='shadow-lg shadow-[#000000] group container rounded-md flex justify-center items-center mx-auto content-div'>
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <p className='text-2xl text-center font-bold text-zinc-100 tracking-wider'>
-                  React JS Application
+                  Portfolio V1
                 </p>
                 <p className='text-xs text-center font-bold text-zinc-300 tracking-wider'>
-                  HTML - CSS - JavaScript - React
+                  HTML - CSS
                 </p>
                 <p className='text-xs text-center font-bold text-zinc-300 tracking-wider m-2'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem libero delectus quam voluptatum itaque labore. Totam sit maiores accusantium. Reiciendis provident sint non veritatis quae mollitia! Consectetur iusto commodi repudiandae.
+                  This project was my first love, it was also my first fully responsive project.
                 </p>
               <div className='md:pt-1 sm:pt-4 text-center'>
-                <a href="/">
+                <a href="https://carlos-req.github.io/CarlosRequena.io/">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-red-700 font-bold text-lg'>Demo</button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/carlos-req/CarlosRequena.io'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-red-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
