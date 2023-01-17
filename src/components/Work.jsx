@@ -20,6 +20,29 @@ const Work = () => {
         {/* Container */}
         <div  className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
           {/* Grid Item */}
+          <div style={{backgroundImage: `url(${Mock2})`}} className='shadow-lg shadow-[#000000] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <p className='text-2xl text-center font-bold text-zinc-100 tracking-wider'>
+                Jamming 
+              </p>
+              <p className='text-xs text-center font-bold text-zinc-300 tracking-wider'>
+                HTML - CSS - JavaScript - React
+              </p>
+              <p className='text-xs text-center font-bold text-zinc-300 tracking-wider m-2'>
+                 Calls the Spotify API to search for songs, create a new playlist and upload this new playlist to your Spotify account This project help me futher understand props and states.
+              </p>
+              <div className='md:pt-1 sm:pt-4 text-center'>
+                <a href="/">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-red-700 font-bold text-lg'>Demo</button>
+                </a>
+                <a href='/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-red-700 font-bold text-lg'>Code</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* Grid Item */}
           <div style={{backgroundImage: `url(${MovieDeck})`}} className='shadow-lg shadow-[#000000] group container rounded-md flex justify-center items-center mx-auto content-div'>
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
@@ -106,29 +129,6 @@ const Work = () => {
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-red-700 font-bold text-lg'>Demo</button>
                 </a>
                 <a href='https://github.com/carlos-req/CarlosRequena.io'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-red-700 font-bold text-lg'>Code</button>
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* Grid Item */}
-          <div style={{backgroundImage: `url(${Mock2})`}} className='shadow-lg shadow-[#000000] group container rounded-md flex justify-center items-center mx-auto content-div'>
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <p className='text-2xl text-center font-bold text-zinc-100 tracking-wider'>
-                React JS Application
-              </p>
-              <p className='text-xs text-center font-bold text-zinc-300 tracking-wider'>
-                HTML - CSS - JavaScript - React
-              </p>
-              <p className='text-xs text-center font-bold text-zinc-300 tracking-wider m-2'>
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem libero delectus quam voluptatum itaque labore. Totam sit maiores accusantium. Reiciendis provident sint non veritatis quae mollitia! Consectetur iusto commodi repudiandae.
-              </p>
-              <div className='md:pt-1 sm:pt-4 text-center'>
-                <a href="/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-red-700 font-bold text-lg'>Demo</button>
-                </a>
-                <a href='/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-red-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
