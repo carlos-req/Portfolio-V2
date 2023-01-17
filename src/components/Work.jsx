@@ -3,6 +3,7 @@ import Mock1 from '../assets/projects/img-1.png'
 import Mock2 from '../assets/projects/img-2.png'
 import Mock3 from '../assets/projects/img-3.png'
 import Portfolio1 from '../assets/projects/portfoliov1.png'
+import Jamming from '../assets/projects/jamming.png'
 import IRC from '../assets/projects/IntractiveRatingComponent.jpg'
 import MomentClone from '../assets/projects/MomentClone.png'
 import MovieDeck from '../assets/projects/MovieDeck.jpg'
@@ -20,7 +21,7 @@ const Work = () => {
         {/* Container */}
         <div  className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
           {/* Grid Item */}
-          <div style={{backgroundImage: `url(${Mock2})`}} className='shadow-lg shadow-[#000000] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div style={{backgroundImage: `url(${Jamming})`}} className='shadow-lg shadow-[#000000] group container rounded-md flex justify-center items-center mx-auto content-div'>
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <p className='text-2xl text-center font-bold text-zinc-100 tracking-wider'>
@@ -33,10 +34,10 @@ const Work = () => {
                  Calls the Spotify API to search for songs, create a new playlist and upload this new playlist to your Spotify account This project help me futher understand props and states.
               </p>
               <div className='md:pt-1 sm:pt-4 text-center'>
-                <a href="/">
+                <a href="https://carlos-req.github.io/jamming/">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-red-700 font-bold text-lg'>Demo</button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/carlos-req/jamming'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-red-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
