@@ -5,6 +5,7 @@ import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
 import { Route, Routes } from "react-router-dom";
+import ProjectPage from "./components/ProjectPage";
 function App() {
   return (
     <div>
@@ -14,6 +15,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="skills" element={<Skills />} />
           <Route path="work" element={<Work />} />
+          <Route path="work/:id" element={<ProjectPage/>} />
           <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>

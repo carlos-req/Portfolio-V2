@@ -1,6 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div name="/" className="w-full h-screen bg-[#111111] ">
