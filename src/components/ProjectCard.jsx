@@ -5,7 +5,7 @@ const ProjectCard = ({ project }) => {
   const navigate = useNavigate();
   return (
     <div
-      style={{ backgroundImage: `url(http://localhost:5173${project.img})` }}
+      style={{ backgroundImage: `url(${project.img})` }}
       className="shadow-lg shadow-[#000000] group container rounded-md flex justify-center items-center mx-auto content-div"
     >
       {/* Hover Effects */}
