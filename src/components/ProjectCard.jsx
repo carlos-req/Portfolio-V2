@@ -1,7 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const ProjectCard = ({ project }) => {
+  const navigate = useNavigate();
   return (
     <div
       style={{ backgroundImage: `url(http://localhost:5173${project.img})` }}
@@ -17,11 +18,14 @@ const ProjectCard = ({ project }) => {
         </p>
 
         <div className="md:pt-1 sm:pt-4 text-center">
-          <Link to={`/work/${project.id}`}>
-            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-red-700 font-bold text-lg">
-              View More
-            </button>
-          </Link>
+          <button
+            onClick={() => {
+              navigate(`/work/${project.id}`);
+            }}
+            className="text-center rounded-lg px-4 py-3 m-2 bg-white text-red-700 font-bold text-lg"
+          >
+            View More
+          </button>
         </div>
       </div>
     </div>

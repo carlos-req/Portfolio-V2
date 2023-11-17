@@ -1,7 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 
-
 const Work = () => {
   let projects = [
     {
@@ -60,7 +59,7 @@ const Work = () => {
         "This project was my first love, it was also my first fully responsive project.",
       longDesc1: "",
       longDesc2: "",
-      img: "/public/images/portfoliov1.png",
+      img: "/images/portfoliov1.png",
       website: "https://carlos-req.github.io/CarlosRequena.io/",
       git: "https://github.com/carlos-req/CarlosRequena.io",
     },
@@ -89,9 +88,8 @@ const Work = () => {
         {/* Container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {projects.map((project) => (
-            <ProjectCard key={project.id} project={project}/>
+            <ProjectCard key={project.id} project={project} />
           ))}
-          
         </div>
       </div>
     </div>

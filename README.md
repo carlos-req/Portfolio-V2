@@ -1,6 +1,6 @@
 # React Portfolio V2
 
-This was a recreation of my original portfolio but instead of just using HTML & CSS I used React & TailwindCSS, as well as Vite to setup my environment 
+This was a recreation of my original portfolio but instead of just using HTML & CSS I used React & TailwindCSS, as well as Vite to setup my environment
 
 ## Table of contents
 
@@ -14,7 +14,6 @@ This was a recreation of my original portfolio but instead of just using HTML & 
 ## Overview
 
 This project has helped me showcase my React skills as well as other projects that I have worked on. I learned a lot of things with this project such as how to use components, how to take advantage of tailwind CSS to make my page fully responsive and how to create a fully functional a single page web application. To see project on local computer, use ##npm run dev
-
 
 ### Links
 
@@ -32,7 +31,7 @@ This project has helped me showcase my React skills as well as other projects th
 
 ### Built with
 
-- Semantic HTML 
+- Semantic HTML
 - React
 - TailwindCSS
 - Vite
@@ -40,6 +39,7 @@ This project has helped me showcase my React skills as well as other projects th
 ### What I learned
 
 - React Components
+- React Router DOM
 - Tailwind CSS Responsiveness
 - Vite Start up environment
 
@@ -48,4 +48,3 @@ This project has helped me showcase my React skills as well as other projects th
 - Portfolio - [Carlos Requena](https://carlosjrequena.com/)
 - Github - [Carlos Requena](https://github.com/carlos-req)
 - Twitter - [@CarlosReq11](https://twitter.com/CarlosReq11)
-

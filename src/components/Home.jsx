@@ -1,7 +1,9 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 const Home = () => {
+  const navigate = useNavigate();
   return (
     <div name="/" className="w-full h-screen bg-[#111111] ">
       {/* Containter */}
@@ -21,14 +23,17 @@ const Home = () => {
         </p>
 
         <div>
-          <Link to="work">
-            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-red-600 hover hover:border-red-600">
-              View Work
-              <span className="group-hover:rotate-90 duration-300">
-                <HiArrowNarrowRight className="ml-3 " />
-              </span>
-            </button>
-          </Link>
+          <button
+            onClick={() => {
+              navigate("/work");
+            }}
+            className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-red-600 hover hover:border-red-600"
+          >
+            View Work
+            <span className="group-hover:rotate-90 duration-300">
+              <HiArrowNarrowRight className="ml-3 " />
+            </span>
+          </button>
         </div>
       </div>
     </div>
