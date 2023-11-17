@@ -11,28 +11,50 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#111111] text-zinc-100">
       <div className="logo hover:text-red-500">
-        <Link to="/">
-          {logoText}
-          {/*<img src={Logo} alt="Logo Image" style={{width:'50px'}} />*/}
-        </Link>
+        <Link to="/">{logoText}</Link>
       </div>
 
       {/* menu */}
       <ul className="hidden md:flex">
         <li>
-          <NavLink to="/">Home</NavLink>
+          <NavLink
+            to="/"
+            className={({ isActive }) => (isActive ? "text-red-500" : "")}
+          >
+            Home
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/about">About</NavLink>
+          <NavLink
+            to="/about"
+            className={({ isActive }) => (isActive ? "text-red-500" : "")}
+          >
+            About
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/skills">Skills</NavLink>
+          <NavLink
+            to="/skills"
+            className={({ isActive }) => (isActive ? "text-red-500" : "")}
+          >
+            Skills
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/work">Work</NavLink>
+          <NavLink
+            to="/work"
+            className={({ isActive }) => (isActive ? "text-red-500" : "")}
+          >
+            Work
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/contact">Contact</NavLink>
+          <NavLink
+            to="/contact"
+            className={({ isActive }) => (isActive ? "text-red-500" : "")}
+          >
+            Contact
+          </NavLink>
         </li>
       </ul>
 
