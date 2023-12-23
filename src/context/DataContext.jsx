@@ -6,6 +6,18 @@ export const DataProvider = ({ children }) => {
   const [projects, setProjects] = useState([
     {
       id: 1,
+      name: "CC Cleaning",
+      tech: "Next.js - React.js - TailwindCSS",
+      shortDesc:
+        "Created a client website for a cleaning company. This was used by the company until they closed down. Built with Next.js, TailwindCSS, and React.js.",
+      longDesc1: "",
+      longDesc2: "",
+      img: "/images/cccleaning.png",
+      website: "/cc-cleaning.vercel.app/",
+      git: "https://github.com/carlos-req/cccleaning",
+    },
+    {
+      id: 2,
       name: "Jamming",
       tech: "HTML - CSS - JavaScript - React",
       shortDesc:
@@ -17,7 +29,7 @@ export const DataProvider = ({ children }) => {
       git: "https://github.com/carlos-req/jamming",
     },
     {
-      id: 2,
+      id: 3,
       name: "Movie Deck",
       tech: "HTML - CSS - JavaScript - REST API",
       shortDesc:
@@ -29,7 +41,7 @@ export const DataProvider = ({ children }) => {
       git: "https://github.com/carlos-req/MovieDeck",
     },
     {
-      id: 3,
+      id: 4,
       name: "Moment Clone",
       tech: "HTML - CSS - JavaScript",
       shortDesc:
@@ -41,7 +53,7 @@ export const DataProvider = ({ children }) => {
       git: "https://github.com/carlos-req/Moment-Extension-Clone",
     },
     {
-      id: 4,
+      id: 5,
       name: "Interactive Rating Component",
       tech: "HTML - CSS - JavaScript",
       shortDesc:
@@ -53,7 +65,7 @@ export const DataProvider = ({ children }) => {
       git: "https://github.com/carlos-req/Interactive-Rating-Component",
     },
     {
-      id: 5,
+      id: 6,
       name: "Portfolio V1",
       tech: "HTML - CSS",
       shortDesc:
@@ -63,18 +75,6 @@ export const DataProvider = ({ children }) => {
       img: "/images/portfoliov1.png",
       website: "https://carlos-req.github.io/CarlosRequena.io/",
       git: "https://github.com/carlos-req/CarlosRequena.io",
-    },
-    {
-      id: 6,
-      name: "React JS Application",
-      tech: "HTML - CSS - JavaScript - React",
-      shortDesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem libero delectus quam voluptatum itaque labore. Totam sit maiores accusantium. Reiciendis provident sint non veritatis quae mollitia! Consectetur iusto commodi repudiandae.",
-      longDesc1: "",
-      longDesc2: "",
-      img: "/images/img-3.png",
-      website: "/",
-      git: "https://github.com/carlos-req",
     },
   ]);
 
